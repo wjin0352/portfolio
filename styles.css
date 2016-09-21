@@ -25,109 +25,144 @@ div.wrapper {
   position: relative;
 }
 
+/* HEADER NAV */
+
+.page-head-nav {
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.page-head-nav li {
+  display: inline-block;
+}
+
+.page-head-nav li a {
+  font-size: 12px;
+  font-size: 0.8rem;
+  line-height: 1.91667;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  font-size: 1.06667rem;
+  line-height: 1.4375;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  padding: 1em;
+}
+
 .page-head {
   z-index: 10;
   position: absolute;
   width: 100%;
-  background-color: #b4d5ff;
-    color: #000;
+  color: #000;
 }
 
 .container {
-    max-width: 87.5em;
-    margin: 0 auto;
-    position: relative;
-    z-index: 10;
+  max-width: 87.5em;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.page-head .container {
+    padding: 2.8em 2em;
 }
 
 .features .top-container {
-    background-color: #47b4e0;
+  background-color: #47b4e0;
 }
 
 .menu-btn {
-    width: 70px;
-    height: 65px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 66%;
-    display: block;
-    position: absolute;
-    top: 6px;
-    right: 0px;
-    z-index: 100;
+  width: 70px;
+  height: 65px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 66%;
+  display: block;
+  position: absolute;
+  top: 6px;
+  right: 0px;
+  z-index: 100;
 }
 
 .main-content {
-    background: #fff;
+  background: #fff;
 }
 
 .features .top-container {
-    background-color: #47b4e0;
+  background-color: #47b4e0;
 }
 
 .top-container {
-    padding-top: 6em;
+  padding-top: 6em;
 }
 
 .top-container .top-container-heading {
-    font-size: 50px;
-    font-size: 3.33333rem;
-    line-height: 1.38;
-    margin-bottom: 0.3em;
-        font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  font-size: 3.33333rem;
+  line-height: 1.38;
+  margin-bottom: 0.3em;
+  font-family: "Oswald", sans-serif;
 }
 
 .main-content .container {
-    padding: 7em 2em;
+  padding: 7em 2em;
 }
 
 .top-container .top-container-heading {
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 
 .top-container .top-container-sub-heading {
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 
 .features .features-list {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 .big-feature-text {
-      max-width: 38%;
-          position: absolute;
-    top: 50%;
+  max-width: 38%;
+  position: absolute;
+  top: 50%;
 }
 
 .split-feature {
-    border-top: 1px solid #f3efeb;
-    border-bottom: 1px solid #f3efeb;
-    position: relative;
-        z-index: 10;
+  border-top: 1px solid #f3efeb;
+  border-bottom: 1px solid #f3efeb;
+  position: relative;
+  z-index: 10;
 }
 
 .grey-block {
-    background-color: #f3efeb;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    z-index: 0;
-    display: block;
+  background-color: #f3efeb;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 0;
+  display: block;
 }
 
 .list-left {
-    width: 49%;
-    display:inline-block;
-    vertical-align: top;
-        text-align: center;
+  width: 49%;
+  display:inline-block;
+  vertical-align: top;
+  text-align: center;
 }
 
 .list-right {
@@ -143,20 +178,20 @@ img {
 
 /* FOOTER */
 .page-foot .btm-bar {
-    background: #000;
+  background: #000;
 }
 
 .page-foot .btm-bar .container {
-    padding: 2em 3em;
+  padding: 2em 3em;
 }
 
 .page-foot .page-foot__social {
-    float: right;
+  float: right;
 }
 
 .page-foot {
-    background-color: #1b1c1c;
-    text-align: center;
+  background-color: #1b1c1c;
+  text-align: center;
 }
 
 
