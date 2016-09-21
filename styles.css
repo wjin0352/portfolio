@@ -38,6 +38,16 @@ div.wrapper {
 
   .page-head-nav li {
     display: inline-block;
+    text-decoration: none;
+  }
+
+    .page-head-nav a {
+    text-decoration: none;
+  }
+
+  .page-head-nav a:hover {
+    opacity: .5;
+    text-decoration: underline;
   }
 
   .page-head-nav li a {
