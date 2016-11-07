@@ -255,7 +255,7 @@ div.main-wrapper {
     text-align: center;
   }
 
-/* tablet/ipads (portrait landscape) 960 1320*/
+/* tablet to desktop ++ */
   @media only screen and (min-width: 768px) and (max-width: 1320px) {
     .features .top-container {
       padding-bottom: 1em;
@@ -291,5 +291,113 @@ div.main-wrapper {
 
 /* smaller tablets */
   @media only screen and (min-width: 569px) and (max-width: 767px) {
+    .features .top-container {
+      padding-bottom: 1em;
+    }
 
+    .big-feature-text {
+      margin: -3em;
+    }
+
+    .grey-block {
+      width:100%;
+      height:30%;
+      padding-bottom: 60em;
+    }
+
+    .list-left {
+      display:inline;
+    }
+
+    .list-right {
+      display: inline;
+      float: none;
+    }
+
+    img {
+      width: 508px;
+      transition: width 2s, height 2s;
+    }
+
+    .content .container {
+      padding: 1.5em 2em;
+    }
+
+    .single-section {
+      margin-top:-3em;
+    }
+
+    .top-container .top-container-heading {
+      font-size: 2.33333rem;
+      transition: width 2s, height 2s;
+    }
+  }
+
+  @media only screen and (max-width: 569px) {
+    li {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+    .page-head .container {
+      padding: 2em 2em;
+      margin-right: 3em;
+    }
+
+    .page-head-nav li a {
+      font-size:12px;
+    }
+
+    .features .top-container {
+      padding-bottom: 2em;
+    }
+
+    .features-list li {
+      margin-right:25px;
+    }
+
+    .content .container {
+      padding: 0em 0em;
+    }
+
+    img {
+      height: 205px;
+      width: 320px;
+      transition: width 2s, height 2s;
+    }
+
+    .list-left {
+      display: inline;
+    }
+
+    .list-right {
+      display: inline;
+      float:none;
+    }
+
+    .grey-block {
+      width:100%;
+      height:30%;
+      padding-bottom: 43em;
+    }
+
+    .top-container .top-container-heading {
+      font-size: 1.33333rem;
+      transition: width 2s, height 2s;
+    }
+
+    .top-container .top-container-sub-heading {
+      font-size: 1em;
+    }
+
+    .features .features-list {
+      font-size: 1em;
+    }
+
+    .footer-container {
+      padding-top: 3em;
+    }
   }
