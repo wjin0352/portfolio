@@ -84,7 +84,7 @@ div.main-wrapper {
   }
 
   .page-head .container {
-      padding: 2.8em 2em;
+    padding: 2.8em 2em;
   }
 
   .features .top-container {
@@ -227,6 +227,10 @@ div.main-wrapper {
     border: 1px solid rgb(224, 227, 229);
     border-radius: 5px;
     height: 300px;
+  }
+
+  .first-single-section {
+    border-top: 1px solid #f3efeb;
   }
 
 /* FOOTER */
