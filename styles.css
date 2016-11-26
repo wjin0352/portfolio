@@ -38,6 +38,14 @@ div.main-wrapper {
     text-align: center;
   }
 
+  .features-list__heading{
+    font-size:13px;
+  }
+
+  h2.top-container-sub-heading{
+    font-size:13px;
+  }
+
   .page-head-nav li {
     display: inline-block;
     text-decoration: none;
@@ -212,7 +220,11 @@ div.main-wrapper {
   .list-center {
     vertical-align: top;
     text-align: center;
+    padding: 2em;
+  }
 
+  .youtube {
+    border-top: 1px solid #f3efeb;
   }
 
   .list-center li {
@@ -229,8 +241,12 @@ div.main-wrapper {
     height: 300px;
   }
 
-  .first-single-section {
+  .social-media-single-section {
     border-top: 1px solid #f3efeb;
+  }
+
+  .container .simpsons {
+    margin-top:-2em;
   }
 
 /* FOOTER */
