@@ -297,7 +297,6 @@ div.main-wrapper {
     .grey-block {
       width:100%;
       height:60%;
-      transition: height 1s, width 1s;
       padding-bottom: 43em;
     }
 
@@ -332,7 +331,6 @@ div.main-wrapper {
     .grey-block {
       width:100%;
       height:30%;
-      transition: height 1s, width 1s;
       padding-bottom: 60em;
     }
 
