@@ -7,6 +7,17 @@ html {
   color: #000;
 }
 
+/* to override bootstrap defaults */
+* {
+   box-sizing: border-box;
+   font-family: "Open Sans", sans-serif;
+   font-size: 100%;
+   font-weight: 100;
+   line-height: 1.53333;
+   font-size: 16px;
+   line-height: 2;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -39,7 +50,7 @@ div.main-wrapper {
   }
 
   .features-list__heading{
-    font-size:13px;
+    font-size:16px;
   }
 
   h2.top-container-sub-heading{
@@ -164,8 +175,6 @@ div.main-wrapper {
 /* content about me */
   .big-feature-text {
     text-align: center;
-    /*max-width: 50%;*/
-    /*top: 50%;*/
   }
 
   .big-feature-text p {
@@ -173,6 +182,7 @@ div.main-wrapper {
     color: grey;
     width: 40%;
     display: inline-block;
+    font-size: 16px;
   }
 
 /* split section feature */
@@ -186,7 +196,7 @@ div.main-wrapper {
 
 /* empty div for color overlay */
   .grey-block {
-    background-color: #f3efeb;
+    /*background-color: #f3efeb;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -223,7 +233,7 @@ div.main-wrapper {
     padding: 2em 0em;
   }
 
-  .youtube {
+  .youtube, .social-media-single-section, .nfl_section, .my_photos_section, .simpsons-section {
     border-top: 1px solid #f3efeb;
   }
 
@@ -245,8 +255,16 @@ div.main-wrapper {
     border-top: 1px solid #f3efeb;
   }
 
-  .container .simpsons {
-    margin-top:-2em;
+  .button_github {
+    padding: 1em;
+  }
+
+  .btn-github {
+    /*display: block;*/
+    font-size:12px;
+    color: #000;
+    background-color: #eff7ff;
+    border-color: rgba(0,0,0,0.2);
   }
 
 /* FOOTER */
@@ -294,23 +312,8 @@ div.main-wrapper {
       margin: -3em;
     }
 
-    .grey-block {
-      width:100%;
-      height:60%;
-      padding-bottom: 43em;
-    }
-
-    .list-left {
-      display:inline;
-    }
-
-    .list-right {
-      display: inline;
-      float: none;
-    }
-
     .content .container {
-      padding: 0em 2em;
+      /*padding: 0em 2em;*/
     }
 
     .footer-container {
@@ -348,10 +351,6 @@ div.main-wrapper {
       transition: width 2s;
     }
 
-    .content .container {
-      padding: 1.5em 2em;
-    }
-
     .single-section {
       margin-top:-3em;
     }
@@ -363,11 +362,11 @@ div.main-wrapper {
 
   @media only screen and (max-width: 569px) {
     li {
-      font-size: 12px;
+      font-size: 15px;
     }
 
     p {
-      font-size: 13px;
+      font-size: 15px;
     }
 
     .page-head .container {
