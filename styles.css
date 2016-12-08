@@ -244,6 +244,11 @@ div.main-wrapper {
   .split-section li {
     margin-bottom: 10px;
   }
+  
+  /* bootstrap popover content on li */
+  .popover-content {
+    font-size: 13px;
+  }
 
   img {
     border: 1px solid rgb(224, 227, 229);
