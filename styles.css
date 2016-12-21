@@ -307,6 +307,11 @@ div.main-wrapper {
     text-align: center;
   }
 
+  a#top {
+    font-size: 12px;
+  }
+
+
 /* tablet to desktop ++ */
   @media only screen and (min-width: 768px) and (max-width: 1320px) {
     .features .top-container {
@@ -430,9 +435,5 @@ div.main-wrapper {
 
     .footer-container {
       padding-top: 3em;
-    }
-
-    footer a {
-      font-size: 11px;
     }
   }
