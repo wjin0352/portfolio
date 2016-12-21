@@ -274,7 +274,7 @@ div.main-wrapper {
 
 /* FOOTER */
   footer {
-    height: 215px;
+    height: 290px;
     color: #CCC;
   }
 
@@ -307,10 +307,41 @@ div.main-wrapper {
     text-align: center;
   }
 
+  .btn-linkedin {
+    color: #fff;
+    background-color: #007bb6;
+    border-color: rgba(0,0,0,0.2);
+    position: relative;
+  }
+
+  .foot .fa-linkedin:before {
+    content: "\f0e1";
+    font-size: 1.7em;
+  }
+
+  .btn-github {
+    color: #444;
+    background-color: #fff;
+    border-color: rgba(0,0,0,0.2);
+    position: relative;
+  }
+
+  .foot .fa-github:before {
+    content: "\f09b";
+    font-size: 1.9em;
+  }
+
+  #email {
+    font-size: 13px;
+  }
+
   a#top {
     font-size: 12px;
   }
 
+  a#top:hover {
+    color: #d9f0ee;
+  }
 
 /* tablet to desktop ++ */
   @media only screen and (min-width: 768px) and (max-width: 1320px) {
