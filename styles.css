@@ -244,7 +244,7 @@ div.main-wrapper {
   .split-section li {
     margin-bottom: 10px;
   }
-  
+
   /* bootstrap popover content on li */
   .popover-content {
     font-size: 13px;
@@ -430,5 +430,9 @@ div.main-wrapper {
 
     .footer-container {
       padding-top: 3em;
+    }
+
+    footer a {
+      font-size: 11px;
     }
   }
