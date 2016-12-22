@@ -150,8 +150,12 @@ div.main-wrapper {
     font-family: "Oswald", sans-serif;
   }
 
-  .content .container {
+  #top_container_info {
     padding: 7em 2em;
+  }
+
+  .single-section {
+    padding: 4em 2em;
   }
 
   .top-container .top-container-heading {
@@ -179,6 +183,17 @@ div.main-wrapper {
     font-size: 21px
   }
 
+  .top-container {
+    background: url(https://s3.amazonaws.com/nfl-arrests/profile-pics/la.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	  background-position: center;
+  }
+
   .big-feature-text {
     text-align: center;
   }
@@ -198,18 +213,6 @@ div.main-wrapper {
     position: relative;
     z-index: 10;
     width:100%;
-  }
-
-/* empty div for color overlay */
-  .grey-block {
-    /*background-color: #f3efeb;*/
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    z-index: 0;
-    display: block;
   }
 
   .list-left {
@@ -293,7 +296,7 @@ div.main-wrapper {
   }
 
   .page-foot .btm-bar {
-    background-color: #354557;
+    background-color: #263442
   }
 
   .page-foot .btm-bar  {
@@ -309,7 +312,7 @@ div.main-wrapper {
   }
 
   .page-foot {
-    background-color: #354557;
+    background-color: #263442;
     text-align: center;
   }
 
@@ -375,13 +378,15 @@ div.main-wrapper {
     }
 
     .big-feature-text {
-      margin: -3em;
+      margin-top:3em;
     }
 
-    .grey-block {
-      width:100%;
-      height:30%;
-      padding-bottom: 60em;
+    .big-feature-text p {
+      width: 60%;
+    }
+
+    .single-section {
+      padding-top: 4em 2em;
     }
 
     .list-left {
@@ -408,6 +413,19 @@ div.main-wrapper {
   }
 
   @media only screen and (max-width: 569px) {
+    .top-container {
+      /* background at smallest setting cut off picture this gets around that */
+      background-attachment: local;
+    }
+
+    #top_container_info {
+      padding: 5em 2em;
+    }
+
+    .single-section {
+      padding: 2em 2em;
+    }
+
     li {
       font-size: 15px;
     }
@@ -427,6 +445,11 @@ div.main-wrapper {
 
     .features .top-container {
       padding-bottom: 2em;
+    }
+
+    .big-feature-text p {
+      width: 90%;
+      padding: 0em 0em 4em 0em;
     }
 
     .features-list li {
@@ -450,12 +473,6 @@ div.main-wrapper {
     .list-right {
       display: inline;
       float:none;
-    }
-
-    .grey-block {
-      width:100%;
-      height:30%;
-      padding-bottom: 43em;
     }
 
     .top-container .top-container-heading {
