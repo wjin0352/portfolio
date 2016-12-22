@@ -173,12 +173,18 @@ div.main-wrapper {
   }
 
 /* content about me */
+  #about_header {
+    margin: 1em;
+    padding-top: 2em;
+    font-size: 21px
+  }
+
   .big-feature-text {
     text-align: center;
   }
 
   .big-feature-text p {
-    padding: 6em 0em 8em 0em;
+    padding: 0em 0em 8em 0em;
     color: grey;
     width: 40%;
     display: inline-block;
@@ -287,7 +293,7 @@ div.main-wrapper {
   }
 
   .page-foot .btm-bar {
-    background-color: #333;
+    background-color: #354557;
   }
 
   .page-foot .btm-bar  {
@@ -303,7 +309,7 @@ div.main-wrapper {
   }
 
   .page-foot {
-    background-color: #333;
+    background-color: #354557;
     text-align: center;
   }
 
@@ -350,7 +356,7 @@ div.main-wrapper {
     }
 
     .big-feature-text {
-      margin: -3em;
+      /*margin: -3em;*/
     }
 
     .content .container {
