@@ -107,7 +107,7 @@ div.main-wrapper {
   }
 
   .features .top-container {
-    background-color: #47b4e0;
+    /*background-color: #47b4e0;*/
   }
 
   .menu-btn {
@@ -130,7 +130,7 @@ div.main-wrapper {
   }
 
   .features .top-container {
-    background-color: #47b4e0;
+    /*background-color: #47b4e0;*/
   }
 
   .content a:hover {
@@ -184,7 +184,7 @@ div.main-wrapper {
   }
 
   .top-container {
-    background: url(https://s3.amazonaws.com/nfl-arrests/profile-pics/la.jpg);
+    background: url(https://s3.amazonaws.com/nfl-arrests/la-med.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
