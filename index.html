@@ -8,6 +8,10 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <!-- Latest compiled and minified JavaScript -->
@@ -16,7 +20,7 @@
   <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700|Montserrat:400,700" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700|Montserrat:400,700" rel="stylesheet" />
   <link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-
+  
   <!-- Latest compiled and minified CSS -->
   <link href="styles.css" rel="stylesheet" />
 </head>
@@ -27,7 +31,7 @@
       <div class='container' id="top">
         <a class='menu-btn' href='#' id='js-menu-btn'></a>
       <!-- navigation -->
-        <nav class='page-head-nav' id='js-main-nav'>
+        <div class='page-head-nav' id='js-main-nav'>
           <ul>
             <li class='home-link'>
               <a href="#home" >Home</a>
@@ -39,14 +43,19 @@
               <a href="#contact" >Contact</a>
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
     </header>
 
   <!-- content body -->
     <div class="content">
     <!-- content intro -->
-      <section class="top-container">
+      <section class="top-container parallax-container">
+        
+        <div class="parallax">
+          <img src="https://s3.amazonaws.com/nfl-arrests/central.jpeg"   alt="background image central park">
+        </div>
+
         <div class="container" id='top_container_info'>
           <h1 class="top-container-heading">
             My name is Won
@@ -71,11 +80,24 @@
         <div class="big-feature-text">
           <h3 id="about_header">About</h3>
           <p>
-            I am a Developer currently working in Javascript Node/Express/React/Redux but I also have experience in Ruby on Rails.  I love finding great ideas and helping turn them into reality using software.  I have a background in Biology but I love software because of the freedom it gives me to jump into any industry and never get bored.  I enjoy team building, and motivating others.  I am looking to become part of a team that is very passionate about their work.
-            Also a big fan of movies and actors talking about acting. I am a big fan of crypto currency trading on my off time.
+            I am a Developer currently working in Javascript Node/Express/React/Redux but I also have experience in Ruby on Rails.  I love finding great ideas and helping turn them into reality using software.  I have a background in Biology but I love software because of the freedom it gives me to jump into any industry and never get bored.  I am looking to become part of a team that is very passionate about their work.
+            Also a big fan of movies and actors talking about acting. 
           </p>
         </div>
       </section>
+
+      <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="https://s3.amazonaws.com/nfl-arrests/central.jpeg" alt="Unsplashed background img 3"/></div>
+  </div>
+
+    
 
     <!-- single section youtube app -->
     <section class="single-section youtube" id="work" >
@@ -84,7 +106,7 @@
         <li>Youtube search favorites
         </li>
           <a href="https://shrouded-mesa-30974.herokuapp.com/" target="_blank">
-            <img src="https://s3.amazonaws.com/nfl-arrests/youtube-app.jpg" class="youtube_image"  alt="Blogging app" >
+            <img src="https://s3.amazonaws.com/nfl-arrests/youtube-app.jpg" class="projects youtube_image"  alt="Blogging app" >
           </a>
           <div class="button_github">
             <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/video-player" target="_blank">
@@ -108,6 +130,18 @@
       </div>
     </section>
 
+
+    <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="https://s3.amazonaws.com/nfl-arrests/central.jpeg" alt="Unsplashed background img 2"></div>
+  </div>
+
     <!-- single section blog app -->
     <section class="single-section social-media-single-section" >
       <div class="container">
@@ -116,7 +150,7 @@
           Social media blog app
         </li>
           <a href="https://murmuring-oasis-51784.herokuapp.com/" target="_blank" >
-            <img src="https://s3.amazonaws.com/nfl-arrests/blog-app.jpg" class="blog_image" alt="Blogging app" >
+            <img src="https://s3.amazonaws.com/nfl-arrests/blog-app.jpg" class="projects blog_image" alt="Blogging app" >
           </a>
           <div class="button_github">
             <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/react-redux-social-media" target="_blank">
@@ -148,7 +182,7 @@
               NFL ARRESTS
             </li>
                 <a href="http://wjin0352.github.io/NFL-arrests/" target="_blank">
-                  <img src="https://s3.amazonaws.com/nfl-arrests/nfl-arrest-ss" class="nfl_image" alt="nfl arrests site image">
+                  <img src="https://s3.amazonaws.com/nfl-arrests/nfl-arrest-ss" class="projects nfl_image" alt="nfl arrests site image">
                 </a>
                 <div class="button_github">
                   <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/NFL-arrests" target="_blank">
@@ -172,7 +206,7 @@
       </section>
 
     <!-- single section my photos -->
-      <section class="single-section my_photos_section">
+      <!--<section class="single-section my_photos_section">
         <div class="container">
           <div class="list-center">
             <li>
@@ -181,7 +215,7 @@
             <li>
               <div>
                 <a href="https://hidden-cliffs-73884.herokuapp.com/" target="_blank">
-                  <img src="https://s3.amazonaws.com/nfl-arrests/instagram-site.jpg" class="photos_image" alt="my pictures">
+                  <img src="https://s3.amazonaws.com/nfl-arrests/instagram-site.jpg" class="photos_image projects" alt="my pictures">
                 </a>
                 <div class="button_github">
                   <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/react-redux-instagram" target="_blank">
@@ -203,7 +237,7 @@
             </li>
           </div>
         </div>
-      </section>
+      </section>-->
 
     <!-- single section simpsons -->
       <section class="single-section simpsons-section">
@@ -213,13 +247,15 @@
             Simpson's meltdown quiz
           </li>
             <a href="http://wjin0352.github.io/quiz-app/" target="_blank" >
-              <img src="https://s3.amazonaws.com/nfl-arrests/simpsons-quiz.jpg" alt="simpsons quiz" >
+              <img 
+              class="projects simpsons_image"
+              src="https://s3.amazonaws.com/nfl-arrests/simpsons-quiz.jpg" alt="simpsons quiz" >
             </a>
             <div class="button_github">
               <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/quiz-app" target="_blank">
                 <span class="fa fa-github"></span>  GitHub
               </a>
-              <a class="btn  btn-github" target="_blank" data-toggle="popover"
+              <a class="btn btn-github" target="_blank" data-toggle="popover"
               title="Simpsons Quiz"
               data-container="body"
               data-content="A Simpsons themed quiz game that challenges you on Simpsons cartoon facts. To play just read the questions and click on the checkboxes to give your answer. Then click on submit.
@@ -260,7 +296,8 @@
       <p><a href="#top" id="top">Home</a></p>
     </footer>
   </div>
-
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
   <script src="./scripts.js"></script>
 </body>
 

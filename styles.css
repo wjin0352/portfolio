@@ -106,10 +106,6 @@ div.main-wrapper {
     padding: 2.8em 2em;
   }
 
-  .features .top-container {
-    /*background-color: #47b4e0;*/
-  }
-
   .menu-btn {
     width: 70px;
     height: 65px;
@@ -126,11 +122,7 @@ div.main-wrapper {
 
 /* Main content body */
   .content {
-    background: #fff;
-  }
-
-  .features .top-container {
-    /*background-color: #47b4e0;*/
+    /*background: #fff;*/
   }
 
   .content a:hover {
@@ -184,14 +176,14 @@ div.main-wrapper {
   }
 
   .top-container {
-    background: url(https://s3.amazonaws.com/nfl-arrests/central.jpeg);
-    -webkit-background-size: cover;
+    /*background: url(https://s3.amazonaws.com/nfl-arrests/central.jpeg);*/
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-	  background-position: center;
+	  background-position: center;*/
   }
 
   .big-feature-text {
@@ -203,7 +195,7 @@ div.main-wrapper {
     color: grey;
     width: 40%;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
   }
 
 /* split section feature */
@@ -248,6 +240,7 @@ div.main-wrapper {
 
   .list-center li {
     margin-bottom: 10px;
+    font-size:18px;
   }
 
   .split-section li {
@@ -259,7 +252,7 @@ div.main-wrapper {
     font-size: 13px;
   }
 
-  img {
+  .nfl_image, .youtube_image, .blog_image, .photos_image, .simpsons_image {
     border: 1px solid rgb(224, 227, 229);
     border-radius: 5px;
     height: 300px;
@@ -293,6 +286,10 @@ div.main-wrapper {
 
   .footer-container {
     text-align: center;
+  }
+
+  .footer-container p #top {
+    font-size: 18px;
   }
 
   .page-foot .btm-bar {
@@ -342,10 +339,6 @@ div.main-wrapper {
 
   #email {
     font-size: 13px;
-  }
-
-  a#top {
-    font-size: 12px;
   }
 
   a#top:hover {
@@ -398,7 +391,7 @@ div.main-wrapper {
       float: none;
     }
 
-    img {
+     img.projects  {
       width: 508px;
       transition: width 2s;
     }
@@ -460,7 +453,7 @@ div.main-wrapper {
       padding: 0em 0em;
     }
 
-    img {
+    img.projects {
       height: 205px;
       width: 320px;
       transition: width 2s, height 2s;
@@ -491,3 +484,60 @@ div.main-wrapper {
       padding-top: 3em;
     }
   }
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

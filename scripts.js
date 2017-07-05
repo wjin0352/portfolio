@@ -1,5 +1,6 @@
 $( document ).ready(function() {
   console.log('ready')
+
   // this line just initializes all popover messages, for detail refer to bootstrap popovers
   $('[data-toggle="popover"]').popover();
 
@@ -16,4 +17,7 @@ $( document ).ready(function() {
       }
     }
   });
+
+    $('.button-collapse').sideNav();
+    $('.parallax').parallax();
 });
