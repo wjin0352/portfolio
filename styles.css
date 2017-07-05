@@ -134,6 +134,10 @@ div.main-wrapper {
     padding-top: 6em;
   }
 
+  section.top-container {
+    height:700px;
+  }
+
   .top-container .top-container-heading {
     font-size: 50px;
     font-size: 3.33333rem;
@@ -143,7 +147,7 @@ div.main-wrapper {
   }
 
   #top_container_info {
-    padding: 7em 2em;
+    padding: 1em 2em;
   }
 
   .single-section {
@@ -540,4 +544,8 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.container {
+  width:100%;
 }
