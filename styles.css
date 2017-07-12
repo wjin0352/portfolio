@@ -349,6 +349,24 @@ div.main-wrapper {
     color: #d9f0ee;
   }
 
+  #github {
+    padding-top: 4px;
+  }
+
+/* background colors */
+  .youtube {
+    background: #C3BEF7;
+  }
+
+  .social-media-single-section {
+    background: #EFFFFA;
+  }
+
+  .simpsons-section {
+    background: #8A4FFF;
+    color: white;
+  }
+
 /* tablet to desktop ++ */
   @media only screen and (min-width: 768px) and (max-width: 1320px) {
     .features .top-container {
@@ -415,8 +433,12 @@ div.main-wrapper {
       background-attachment: local;
     }
 
+    section.top-container {
+      height:300px;
+    }
+
     #top_container_info {
-      padding: 5em 2em;
+      padding: 0em 2em;
     }
 
     .single-section {
@@ -546,6 +568,7 @@ footer.page-footer {
   margin: 0;
 }
 
+/* fix for materialize css width overwrite */
 .container {
   width:100%;
 }

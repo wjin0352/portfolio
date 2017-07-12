@@ -13,9 +13,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 
   <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
   <script src="https://use.fontawesome.com/28a1c69872.js"></script>
   <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700|Montserrat:400,700" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700|Montserrat:400,700" rel="stylesheet" />
@@ -53,7 +54,10 @@
       <section class="top-container parallax-container">
         
         <div class="parallax">
-          <img src="https://s3.amazonaws.com/nfl-arrests/central.jpeg"   alt="background image central park">
+          <img 
+            src="https://s3.amazonaws.com/nfl-arrests/central.jpeg"   
+            id="back_image"
+            alt="background image central park">
         </div>
 
         <div class="container" id='top_container_info'>
@@ -85,19 +89,6 @@
           </p>
         </div>
       </section>
-
-      <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="https://s3.amazonaws.com/nfl-arrests/central.jpeg" alt="Unsplashed background img 3"/></div>
-  </div>
-
-    
 
     <!-- single section youtube app -->
     <section class="single-section youtube" id="work" >
@@ -135,11 +126,13 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">
+
+          </h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="https://s3.amazonaws.com/nfl-arrests/central.jpeg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="https://s3.amazonaws.com/nfl-arrests/CmnnJdcXYAAQWqh.jpg-large" alt="Unsplashed background img 2"></div>
   </div>
 
     <!-- single section blog app -->
@@ -175,6 +168,19 @@
     </section>
 
     <!-- single section nfl -->
+
+
+    <!--<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="https://s3.amazonaws.com/nfl-arrests/CmnnJdcXYAAQWqh.jpg-large" alt="Unsplashed background img 2"></div>
+  </div>-->
+    <!--https://s3.amazonaws.com/nfl-arrests/lifecycle.png-->
       <section class="single-section nfl_section">
         <div class="container" >
           <div class="list-center">
@@ -287,7 +293,7 @@
               <!-- <li>
                 <a class="github" target="_blank" href="https://github.com/wjin0352/">GitHub</a>
               </li> -->
-              <a class="btn btn-social-icon btn-github" target="_blank" href="https://github.com/wjin0352/">
+              <a class="btn btn-social-icon btn-github" id="github" target="_blank" href="https://github.com/wjin0352/">
                 <span class="fa fa-github"></span>
               </a>
             </div>
