@@ -353,24 +353,26 @@ div.main-wrapper {
     padding-top: 4px;
   }
 
+  div.mid_parallax {
+    height:700px;
+    opacity: .8;
+  }
+
 /* background colors */
-  .youtube {
-    background: #C3BEF7;
+  .youtube, .nfl_section {
+    background:whitesmoke;
   }
 
-  .social-media-single-section {
-    background: #EFFFFA;
-  }
-
-  .simpsons-section {
-    background: #8A4FFF;
-    color: white;
-  }
 
 /* tablet to desktop ++ */
   @media only screen and (min-width: 768px) and (max-width: 1320px) {
     .features .top-container {
       padding-bottom: 1em;
+    }
+
+    section.mid_parallax {
+      height:700px;
+      /*opacity: .9;*/
     }
 
     .big-feature-text {
