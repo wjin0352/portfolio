@@ -18,6 +18,22 @@ $( document ).ready(function() {
     }
   });
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-});
+  $('.button-collapse').sideNav();
+  $('.parallax').parallax();
+
+  // var openEmail = function() {
+  //   $('.target').on('click', function(){
+  //     $('.tap-target').tapTarget('open')
+  //   });   
+  // }
+
+  // var closeEmail = function() {
+  //   $('.target-close').on('click', function() {
+  //     $('.tap-target').tapTarget('close');
+  //   });
+  // }
+
+  // openEmail();
+  // closeEmail();
+}());
+

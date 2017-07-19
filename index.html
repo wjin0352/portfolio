@@ -12,6 +12,9 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!-- Optional theme -->
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
   <!-- Latest compiled and minified JavaScript -->
@@ -90,71 +93,74 @@
         </div>
       </section>
 
-    <!-- single section youtube app -->
-    <section class="single-section youtube" id="work" >
-      <div class="container">
-        <div class="list-center">
-        <li>Youtube search favorites
-        </li>
-          <a href="https://shrouded-mesa-30974.herokuapp.com/" target="_blank">
-            <img src="https://s3.amazonaws.com/nfl-arrests/youtube-app.jpg" class="projects youtube_image"  alt="Blogging app" >
-          </a>
-          <div class="button_github">
-            <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/video-player" target="_blank">
-              <span class="fa fa-github"></span>  GitHub
+    <!-- section youtube app -->
+      <section class="single-section youtube" id="work" >
+        <div class="container">
+          <div class="list-center">
+          <li>Youtube search favorites
+          </li>
+            <a href="https://shrouded-mesa-30974.herokuapp.com/" target="_blank">
+              <img src="https://s3.amazonaws.com/nfl-arrests/youtube-app.jpg" class="projects youtube_image z-depth-4"  alt="Blogging app" >
             </a>
-            <a class="btn btn-github" target="_blank"
-              class='blog' data-toggle="popover"
-                data-container="body"
-                title="Youtube search favorites app"
-                data-content="This application was built using data and the search features available from the Youtube-api-search api. It requires user to register and receive an api key.
-
-                Front end is built with React.js and Redux.js store.
-                Back end is built using Node.js and the Express.js framework with Mongo database hosted on Mongolab."
-                data-trigger="click"
-                data-placement="bottom">
+            <div class="button_github">
+              <a class="btn btn-social btn-github" href="https://github.com/wjin0352/video-player" target="_blank">
+                <span class="fa fa-github"></span>  GitHub
+              </a>
+              <a id="blog" class="target btn btn-github" 
+                onclick="$('.blog_info').tapTarget('open')"> 
                 <i class="fa fa-id-card" aria-hidden="true"></i>
-              <span class="fa"></span>  Info
-            </a>
+                <span class="fa"></span>  Info
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- single section blog app -->
-    <section class="single-section social-media-single-section parallax-container mid_parallax" >
-      <div class="parallax"><img src="https://s3.amazonaws.com/nfl-arrests/central.jpeg"   alt="Unsplashed background img 2"></div>
-      <div class="container">
-        <div class="list-center">
-        <li>
-          Social media blog app
-        </li>
-          <a href="https://murmuring-oasis-51784.herokuapp.com/" target="_blank" >
-            <img src="https://s3.amazonaws.com/nfl-arrests/blog-app.jpg" class="projects blog_image" alt="Blogging app" >
-          </a>
-          <div class="button_github">
-            <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/react-redux-social-media" target="_blank">
-              <span class="fa fa-github"></span>  GitHub
-            </a>
-            <a class="btn  btn-github" target="_blank" class='blog'
-              data-toggle="popover"
-              data-container="body"
-              title="Social media video blog app"
-              data-content="The Front end is built with React.js and Redux.js store.
-                I am using Redux as a state manager with React components for UI.
+        <div class="tap-target cyan blog_info" data-activates="blog">
+          <div class="tap-target-content">
+            <h5>Youtube search favorites app</h5>
+            <p>"This application was built using data and the search features available from the Youtube-api-search api. It requires user to register and receive an api key.
 
-                Back end is built using Node.js and the Express.js framework. I am using a Mongo database from Mongolab."
-              data-trigger="click"
-              data-placement="bottom">
-              <i class="fa fa-id-card" aria-hidden="true"></i>
-              <span class="fa"></span>  Info
-            </a>
+              Front end is built with React.js and Redux.js store.
+              Back end is built using Node.js and the Express.js framework with Mongo database hosted on Mongolab."</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+    <!-- section social media blog app -->
+      <section class="single-section social-media-single-section parallax-container mid_parallax" >
+        <div class="parallax"><img src="https://s3.amazonaws.com/nfl-arrests/central.jpeg"   alt="Unsplashed background img 2"></div>
+        <div class="container">
+          <div class="list-center">
+          <li>
+            Social media blog app
+          </li>
+            <a href="https://murmuring-oasis-51784.herokuapp.com/" target="_blank" >
+              <img src="https://s3.amazonaws.com/nfl-arrests/blog-app.jpg" class="projects blog_image z-depth-4" alt="Blogging app" >
+            </a>
+            <div class="button_github">
+              <a class="btn btn-social btn-github" href="https://github.com/wjin0352/react-redux-social-media" target="_blank">
+                <span class="fa fa-github"></span>  GitHub
+              </a>
+              <a id="socialmedia" class="target btn btn-github" 
+                onclick="$('.social_app').tapTarget('open')"> 
+                <i class="fa fa-id-card" aria-hidden="true"></i>
+                <span class="fa"></span>  Info
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tap-target cyan social_app" data-activates="socialmedia">
+          <div class="tap-target-content">
+            <h5>Social media video blog app</h5>
+            <p>"The Front end is built with React.js and Redux.js store.
+                  I am using Redux as a state manager with React components for UI.
+
+                  Back end is built using Node.js and the Express.js framework. I am using a Mongo database from Mongolab."</p>
+          </div>
+        </div>
+      </section>
 
     <!-- single section nfl -->
-
       <section class="single-section nfl_section">
         <div class="container" >
           <div class="list-center">
@@ -162,62 +168,32 @@
               NFL ARRESTS
             </li>
                 <a href="http://wjin0352.github.io/NFL-arrests/" target="_blank">
-                  <img src="https://s3.amazonaws.com/nfl-arrests/nfl-arrest-ss" class="projects nfl_image" alt="nfl arrests site image">
+                  <img src="https://s3.amazonaws.com/nfl-arrests/nfl-arrest-ss" class="projects nfl_image z-depth-4" alt="nfl arrests site image">
                 </a>
                 <div class="button_github">
-                  <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/NFL-arrests" target="_blank">
+                  <a class="btn btn-social btn-github" href="https://github.com/wjin0352/NFL-arrests" target="_blank">
                     <span class="fa fa-github"></span>  GitHub
                   </a>
-                  <a class="btn  btn-github" target="_blank"  data-toggle="popover"
-                    title="NFL-arrests"
-                    data-container="body"
-                    data-content="
-                    This NFL-Arrests application shows you data from http://nflarrest.com/api api.
-                    It shows top crimes by players and teams. You can type in a player name on the search bar and find player names looking through the list of players below. On a player search it will show you a card full of player arrest information.
-                    This application was created using Javascript,Jquery, and Animate.css library. Animate.css is a library for cross-browser animations, great for effects. Their site is Animate.css link."
-                    data-trigger="click"
-                    data-placement="bottom">
+                  <a id="nfl" class="target btn btn-github"
+                    onclick="$('.nfl_info').tapTarget('open')">
                     <i class="fa fa-id-card" aria-hidden="true"></i>
-                    <span class="fa"></span>  Info
-                  </a>
-              </div>
-          </div>
-        </div>
-      </section>
-
-    <!-- single section my photos -->
-      <!--<section class="single-section my_photos_section">
-        <div class="container">
-          <div class="list-center">
-            <li>
-              My Photos
-            </li>
-            <li>
-              <div>
-                <a href="https://hidden-cliffs-73884.herokuapp.com/" target="_blank">
-                  <img src="https://s3.amazonaws.com/nfl-arrests/instagram-site.jpg" class="photos_image projects" alt="my pictures">
-                </a>
-                <div class="button_github">
-                  <a class="btn  btn-social btn-github" href="https://github.com/wjin0352/react-redux-instagram" target="_blank">
-                    <span class="fa fa-github"></span>  GitHub
-                  </a>
-                  <a class="btn  btn-github" target="_blank" data-toggle="popover"
-                  data-container="body"
-                  title="My Photos"
-                  data-content="Allows users to rate and comment on curated galleries of mine.
-                  To like a picture simply click on the heart icon. To provide a comment on the picture click on the picture itself or the comment link. Then type your name in the author input box and type in your comment on the comment box and press enter. To return home click on the top my photos icon.  I will be adding the ability to create public galleries in the future.
-                  Tech stack used is frontend React.js/Redux with backend Node.js/Express."
-                  data-trigger="click"
-                  data-placement="bottom">
-                  <i class="fa fa-id-card" aria-hidden="true"></i>
                     <span class="fa"></span>  Info
                   </a>
                 </div>
               </div>
-            </li>
           </div>
-        </div>
-      </section>-->
+
+          <div class="tap-target cyan nfl_info" data-activates="nfl">
+            <div class="tap-target-content">
+              <h5>NFL-arrests</h5>
+              <p>"This NFL-Arrests application shows you data from http://nflarrest.com/api api.
+                It shows top crimes by players and teams. You can type in a player name on the search bar and find player names looking through the list of players below. On a player search it will show you a card full of player arrest information.
+                This application was created using Javascript,Jquery, and Animate.css library. Animate.css is a library for cross-browser animations, great for effects. Their site is Animate.css link."</p>
+              <!--<a class="btn red lighten-1" onclick="$('.tap-target').tapTarget('close')">Close
+              </a>-->
+            </div>
+          </div>
+        </section>
 
     <!-- single section simpsons -->
       <!--<section class="single-section simpsons-section">
@@ -251,15 +227,68 @@
         </div>
       </section>-->
 
+
+
   <!-- footer -->
     <footer class='page-foot' id='contact'>
       <div class="btm-bar">
         <div class="footer-container">
           <p class="company-outro">Thanks for visiting!</p>
           <p id="email">wjin0352@gmail.com</p>
-            <!-- <li>
-              <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/wonyong">Linkedin</a>
-            </li> -->
+          
+          <div class="row">
+            <!-- Element Showed -->
+            <!--<a id="menu" class="target waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>-->
+            
+            <!--<a id="menu" class="target waves-effect waves-light btn btn-floating" onclick="$('.x').tapTarget('open')"><i class="material-icons">info</i></a>-->
+            
+
+            <!-- Tap Target Structure -->
+            <!--<div class="tap-target x" data-activates="menu">
+              <div class="tap-target-content">
+                <h5>MENU</h5>
+                <p>A bunch of text</p>
+                <a class="waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('close')">Close tap target</a>
+              </div>
+            </div>-->
+
+            <!--<a id="stuff" class="target waves-effect waves-light btn btn-floating" onclick="$('.y').tapTarget('open')"><i class="material-icons">info</i></a>
+
+            <div class="tap-target y" data-activates="stuff">
+              <div class="tap-target-content">
+                <h5>STUFF</h5>
+                <p>A bunch of text</p>
+                <a class="waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('close')">Close tap target</a>
+              </div>
+            </div>-->
+
+            <form action="https://formspree.io/wjin0352@gmail.com"
+              method="POST"
+              class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input type="text" name="name">
+                  <label for="text" data-error="wrong" data-success="right">Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="email" type="email" class="validate"   name="_replyto">
+                  <label for="email" data-error="wrong" data-success="right">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="textarea1" name="message" value="Add a message" class="materialize-textarea" id="icon_prefix2"></textarea>
+                  <label for="textarea1">Textarea</label>
+                  <!--<input type="submit" value="Send">-->
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          
             <div class="foot">
               <a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://www.linkedin.com/in/wonyong">
                 <span class="fa fa-linkedin"></span>

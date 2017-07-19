@@ -297,7 +297,7 @@ div.main-wrapper {
   }
 
   .page-foot .btm-bar {
-    background-color: #263442
+    /*background-color: #263442*/
   }
 
   .page-foot .btm-bar  {
@@ -313,7 +313,7 @@ div.main-wrapper {
   }
 
   .page-foot {
-    background-color: #263442;
+    /*background-color: #263442;*/
     text-align: center;
   }
 
@@ -362,7 +362,6 @@ div.main-wrapper {
   .youtube, .nfl_section {
     background:whitesmoke;
   }
-
 
 /* tablet to desktop ++ */
   @media only screen and (min-width: 768px) and (max-width: 1320px) {
@@ -427,6 +426,8 @@ div.main-wrapper {
     .top-container .top-container-heading {
       font-size: 2.33333rem;
     }
+
+    /* materialize popup fix */
   }
 
   @media only screen and (max-width: 569px) {
@@ -511,6 +512,27 @@ div.main-wrapper {
     .footer-container {
       padding-top: 3em;
     }
+
+    /* materialize popup */
+      .tap-target {
+        width: 500px;
+        height: 500px;
+        /*top: -100px;*/
+      }
+
+      .tap-target-content {
+        top: -70px !important;
+      }
+
+      .nfl_info {
+        overflow: scroll;
+      }
+
+      .social_app {
+        width: 500px;
+        height: 500px;
+        top: 123px;
+      }
   }
 
 /* Custom Stylesheet */
@@ -571,6 +593,27 @@ footer.page-footer {
 }
 
 /* fix for materialize css width overwrite */
-.container {
-  width:100%;
-}
+  .container {
+    width:100%;
+  }
+
+/* materialize tap-target css */
+  .tap-target-wave {
+    display: none;
+  }
+
+  .tap-target-wrapper {
+    width: 600px;
+    height: 600px;
+    /*bottom:0px !important; */
+  }
+
+  .tap-target-content {
+    /*top:-70px !important;*/
+    text-align: center;
+  }
+
+  /* parallax issue with popup fix */
+  .social-media-single-section .tap-target-wrapper {
+    bottom:0px !important;
+  }
