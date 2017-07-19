@@ -281,7 +281,7 @@ div.main-wrapper {
 /* FOOTER */
   footer {
     height: 290px;
-    color: #CCC;
+    color: #440d0dCCC;
   }
 
   footer a {
@@ -358,6 +358,24 @@ div.main-wrapper {
     opacity: .8;
   }
 
+  #top {
+    color: black;
+  }
+
+  .my_form {
+    float: none !important;
+    width: 50%;
+    margin: 1em auto;
+    border: 1px solid rgba(95, 95, 95, 0.55);
+    border-radius: 15px;
+    color: cornflowerblue;
+  }
+
+  form .row {
+    padding-top:1em !important;
+  }
+  
+
 /* background colors */
   .youtube, .nfl_section {
     background:whitesmoke;
@@ -427,7 +445,11 @@ div.main-wrapper {
       font-size: 2.33333rem;
     }
 
-    /* materialize popup fix */
+    /* materialize form */
+      .my_form {
+        width: 80%;
+        margin:0 auto;
+      }
   }
 
   @media only screen and (max-width: 569px) {
@@ -532,6 +554,12 @@ div.main-wrapper {
         width: 500px;
         height: 500px;
         top: 123px;
+      }
+
+    /* form */
+      .my_form {
+        width: 100%;
+        margin:0 auto;
       }
   }
 
